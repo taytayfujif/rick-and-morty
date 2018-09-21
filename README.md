@@ -35,8 +35,6 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 
 2. Create a function named **`buildHtmlElements(responseData)`**. This is where you will use ES6 methods to build your HTML elements and dynamically add them to the DOM.
 
-- Example html to build for each film and append to the **`<div id="result"></div>`** container:
-
 ```
     html
         <div class="character-container">
@@ -49,25 +47,21 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
     </div>
 ```
 
-### Testing
-
-- Run HTML in browser.
-- Build an event listener on the button, when clicked calls your getFilmData function. If configured functions properly, you should see the results appear on the DOM.
-
 ## Stretch Goals
 
-1. Reformat your `buildHtmlElements` function using string templating.
-2. Build more functions to get other film data including characters, planets, vehicles .......
-3. Add simple CSS.
+1. Make request to other routes `/location` and `/episode`
+2. Make pretty with CSS and use Flexbox
 
 ## Resources
 
-[SWAPI](https://swapi.co/documentation#intro)
+[Rick and Morty API](https://rickandmortyapi.com/documentation/)
 
-[jQuery Ajax](https://api.jquery.com/jQuery.ajax/)
+[Axios Docs](https://github.com/axios/axios)
 
-[jQuery createElement()](https://api.jquery.com/?s=createElement%28%29)
+[Axios CDN](https://cdnjs.com/libraries/axios)
 
-[jQuery addClass()](https://api.jquery.com/addClass/)
+[filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-[jQuery append()](https://api.jquery.com/append/)
+[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
