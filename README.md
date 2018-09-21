@@ -1,4 +1,4 @@
-# rick-and-morty
+# Rick and Morty
 
 ## Objective
 
@@ -14,12 +14,13 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 
 - Clone repo to local machine.
 - Create and link `index.html`, `styles.css`, `app.js`
-- import `axios` cdn
+- Import `axios` cdn
 - Sanity check in browser.
 
 ## Your Challenge
 
-- Make a `GET` request to each `character` endpoint. Grab and append the respective values requested onto the DOM.
+- Create a button
+- When a user clicks the button, a `GET` request is made to each `character` endpoint. Grab and append the respective values requested onto the DOM.
   - You can find the route/endpoint to call from the [Rick and Morty Documentation](https://rickandmortyapi.com/documentation/)
 - Get each character's following values:
   - image
