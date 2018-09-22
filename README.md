@@ -28,11 +28,10 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
   - species
   - origin name
   - status
-  - episode appearance
 
 ## Hints
 
-1. Use `filter` and `map` method to render each character
+1. Use `map` method to render each character
 
 2. Create a function named **`buildHtmlElements(responseData)`**. This is where you will use ES6 methods to build your HTML elements and dynamically add them to the DOM.
 
@@ -50,8 +49,11 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 
 ## Stretch Goals
 
+1. Make pretty with CSS and use Flexbox
 1. Make request to other routes `/location` and `/episode`
-2. Make pretty with CSS and use Flexbox
+1. Get character value `episode`
+  - will need to check out methods `lastIndexOf`, `slice`, and `map`
+
 
 ## Resources
 
