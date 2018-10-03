@@ -36,14 +36,13 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 2. Create a function named **`buildHtmlElements(responseData)`**. This is where you will use ES6 methods to build your HTML elements and dynamically add them to the DOM.
 
 ```
-    html
-        <div class="character-container">
-        <img class="character-image" src="CHARACTER IMAGE URL" />
-        <h2 class="character-name">CHARACTER NAME</h2>
-        <div class="character-species">CHARACTER SPECIES</div>
-        <div class="character-origin-name">CHARACTER ORIGIN NAME</div>
-        <div class="character-status">CHARACTER STATUS</div>
-        <div class="character-episodes">CHARACTER EPISODE</div>
+    <div class="character-container">
+      ** Write the following in HTML **
+        - image
+        - name
+        - species
+        - origin name
+        - status
     </div>
 ```
 
