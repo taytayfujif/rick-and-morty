@@ -19,8 +19,8 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 
 ## Your Challenge
 
-- Create a button
-- When a user clicks the button, a `GET` request is made to each `character` endpoint. Grab and append the respective values requested onto the DOM.
+- Create a text input field with a submit button
+- When a user clicks the submit button, a `GET` request is made `character` endpoint with the specifc character name from the text input field. Grab and append the respective values requested onto the DOM.
   - You can find the route/endpoint to call from the [Rick and Morty Documentation](https://rickandmortyapi.com/documentation/)
 - Get each character's following values:
   - image
@@ -68,3 +68,5 @@ Use your knowledge of HTTP request by using Axios to fetch star wars film inform
 [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 [innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+
+[HTML Input Tag}(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
