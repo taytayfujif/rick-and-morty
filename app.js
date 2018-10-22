@@ -1,26 +1,28 @@
-const result = document.querySelector('#result');
+var result = document.getElementById('#result');
 
+document.getElementById('search').addEventListener('click')
+    var name= document.getElementById('information')
+    
 axios 
 .get('https://rickandmortyapi.com/api/character')
 .then(response =>{
     
-    buildHTMLElements(response);
+   search(response)
 })
 .catch(error => {
     console.log('error', error);
 });
 
-const buildHTMLElements = (response)=>{
-result.innerHTML = response
-    .map( characterData=>{
+function search(response){
+    result.innerHTML = response.data
+    .map(function(characterData){
         return`
-        <div>image:${characterData.imagee}</div>
+        <img src="${characterData.image}
         <h1>Name: ${characterData.name}</h1>
         <div>species: ${characterData.species}</div>
-        <div>orgin name: ${characterData.orginName}</div>
+        <div>orgin name: ${characterData.orgin.Name}</div>
         <div>status:${characterData.status}</div>
         `;
     })
     .join('');
 };
-
